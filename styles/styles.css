@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300;700&display=swap');
+
+:root {
+    --bg: #6394a4;
+}
+* {
+    border: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #6394a4;
+}
+
+.topnav {
+    font-family: "Roboto";
+    font-size: x-large;
+    font-weight: 500;
+    background-color: white;
+    overflow: hidden;
+    margin: 2% 3%;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: right;
+    padding: 16px 14px;
+    text-decoration: none;
+    border-left: #023047 solid 3px;
+}
+
+.topnav a:hover {
+    background-color: #ddddff;
+    color: black;
+}
+
+#home {
+    margin-left: 60%;
+}
+#people {
+    
+}
+
+#logo {
+    color: #023047;
+    font-weight: 600;
+    text-align: left;
+}
+
+.text {
+    font-family: "Roboto";
+    font-size: large;
+    margin: 0% 3%;
+    padding: 2%;
+    text-align: justify;
+    line-height: 150%;
+    background-color: #ddddff;
+}
