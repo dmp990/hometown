@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300;700&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Poppins:wght@400;700&family=Roboto:wght@300;700&family=Ubuntu:wght@700&display=swap');
 :root {
     --bg: #6394a4;
 }
@@ -11,22 +11,22 @@ body {
     background-color: #6394a4;
 }
 
-.topnav {
+.topnav { /* leftcol, right col */
     font-family: "Roboto";
     font-size: x-large;
     font-weight: 500;
-    background-color: white;
+    background-color: #f7f4f9;
     overflow: hidden;
     margin: 2% 3%;
+    padding: 0%;
 }
 
 .topnav a {
     float: left;
     color: black;
-    text-align: right;
-    padding: 1% 1%;
+    text-align: center;
+    padding: 1%;
     text-decoration: none;
-    border-left: #023047 solid 3px;
 }
 
 .topnav a:hover {
@@ -34,8 +34,15 @@ body {
     color: black;
 }
 
-#home {
+.leftCol a:hover {
+    background-color: #9e9eff;
+}
+.rightCol{
     margin-left: 67%;
+}
+.rightCol a {
+    margin-left: 8%;
+    padding: 3%;
 }
 
 #logo {
