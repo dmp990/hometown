@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300;700&family=Ubuntu:wght@700&display=swap');
 :root {
     --bg: #6394a4;
 }
@@ -25,7 +24,7 @@ body {
     float: left;
     color: black;
     text-align: right;
-    padding: 16px 14px;
+    padding: 1% 1%;
     text-decoration: none;
     border-left: #023047 solid 3px;
 }
@@ -36,10 +35,7 @@ body {
 }
 
 #home {
-    margin-left: 67.5%;
-}
-#people {
-    
+    margin-left: 67%;
 }
 
 #logo {
@@ -56,4 +52,25 @@ body {
     text-align: justify;
     line-height: 150%;
     background-color: #ddddff;
+}
+
+.top {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.top a {
+    background-color: #0d05fa;
+    color: #f5fb04;
+    font-family: "Ubuntu";
+    font-size: 200%;
+    text-decoration: none;
+    padding: 2%;
+    margin-left: 89.4%;
+    margin-right: 3%;
+    border-radius: 30%;
+}
+.top a:hover {
+    background-color: #1ee1ce;
+    color: #e31c2e;
 }
